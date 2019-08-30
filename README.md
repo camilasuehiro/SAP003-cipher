@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Introdução](#1-introdução)
-* [2. Definição do produto, objetivo e usuários](#2-definição-do-produto-objetivo-usuários)
+* [2. Definição do produto, objetivo e usuários](#2-definição-do-produto-objetivo-e-usuários)
 * [3. Processo e decisões](#3-processo-e-decisões)
 * [4. Manual de instruções para usuários](#4-manual-de-instruções-para-usuários)
   
