@@ -26,9 +26,10 @@ A ferramenta criada é uma aplicação web em que o usuário consegue interagir 
 O produto apresenta os seguintes arquivos:
 * `src/index.html`: Contém a marcação HTML e chama o CSS e JavaScript necessários.
 * `src/cipher.js`: Neste arquivo o objeto cipher foi implementado e exportado no objeto global (window). O cipher contém dois métodos:
-  - `cipher.encode(string, offset)`: string é a mensagem (texto) a ser cifrada e offset é o número de posições que queremos mover para a direita no alfabeto. 
-  - `cipher.decode(string, offset)`: string é a mensagem (texto) a ser decifrada e offset é o número de posições que queremos mover para a esquerda no alfabeto. 
-* `src/index.js`: Neste arquivo os eventos de DOM são escutados e cipher.encode() e cipher.decode() são chamados.
+  - `cipher.encode(textForCipher, offset)`: textForCipher é a mensagem (texto) a ser cifrada e offset é o número de posições que queremos mover para a direita no alfabeto. 
+  - `cipher.decode(textForDecipher, offset)`: textForDecipher é a mensagem (texto) a ser decifrada e offset é o número de posições que queremos mover para a esquerda no alfabeto. 
+* `src/index.js`: Este arquivo foi criado para escutar os eventos de DOM e chamar cipher.encode() e cipher.decode().
+* `src/style.css`: Neste arquivo está descrito como os elementos na estrutura do documento devem ser apresentados na tela.
 * `test/cipher.spec.js`: Este arquivo contém alguns testes de exemplo e os testes para cipher.encode() e cipher.decode() foram implementados.
 
 A interface permite ao usuário:
