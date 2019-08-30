@@ -1,0 +1,70 @@
+html {
+    background-color: black;
+}
+h1 {
+    margin: 10;
+    padding: 10px 10px;
+    font-size: 50px;
+    color: rgb(48, 146, 48);
+    text-align: center;
+}
+p {
+    padding: 5px;
+    font-size: 25px;
+    color: blanchedalmond;
+    text-align: center;
+}
+#textForCipher {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(190, 190, 190); 
+    font-size: 18px;
+    height: 50px;
+    width: 1000px;
+}
+#textForDecipher {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    font-size: 18px;
+    height: 50px;
+    width: 1000px;
+}
+#offset {
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    font-size: 18px;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+}
+#btn-enviar1 {
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+}
+#btn-enviar2 {
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+}
+#resultE{
+    padding: 0px 130px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    width: 1000px;
+}
+#resultD{
+    padding: 5px 130px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    width: 1000px;
+}

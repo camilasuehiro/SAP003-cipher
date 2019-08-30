@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Diário de Abstinência</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1>Diário de Abstinência</h1>
+    </div>
+    <form>
+      <p>Como você se sente hoje?</p>
+      <p><input type="text" id="textForCipher"></p>
+      <p>Dias em abstinência</p>
+      <p><input type="number" id="offset"></p>
+      <p><input type="submit" id="btn-enviar1" value="Registrar">
+      <div id="resultE"></div>
+      <p>Retrospectiva</p>
+      <p><input type="text" id="textForDecipher"></p>
+      <p>Dia</p>
+      <p><input type="number" id="offset"></p>
+      <p><input type="submit" id="btn-enviar2" value="Relembrar" ></p>
+      <div id="resultD"></div> 
+     </form>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
